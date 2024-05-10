@@ -1,0 +1,9 @@
+.odelnik {
+    background-color: black
+}
+
+@media (min-width: 600px){
+    .obdelnik{
+        background-color: red;  
+    }
+}

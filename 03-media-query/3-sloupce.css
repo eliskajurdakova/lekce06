@@ -4,3 +4,18 @@ aby na obrazovce širší než 600px byly všechny 3 obdélníky vedle sebe.
 
 Go, girl!
 */
+
+.kontejner {
+    display: block;
+}
+
+@media (min-width: 600px) {
+    .kontejner{
+        display: flex;
+    }
+
+    .sloupec {
+        flex-grow: 1;
+    }
+}
+
